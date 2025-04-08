@@ -16,7 +16,7 @@ export default function App() {
           element={token ? <Common /> : <Navigate to="/auth" replace />}
         />
          <Route
-          path="/terms-conditions"
+          path="/terms"
           element={ <TermsAndConditions />} 
         />
         <Route
