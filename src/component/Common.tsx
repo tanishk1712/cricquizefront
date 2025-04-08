@@ -331,7 +331,7 @@ function Common() {
             </button>
             <button 
               onClick={() => {
-                window.location.href = "/terms-conditions"
+                window.location.href = "/terms"
                 setSelectedMatch(null);
               }}
               className={`flex items-center space-x-1 hover:text-yellow-400 transition-colors `}
